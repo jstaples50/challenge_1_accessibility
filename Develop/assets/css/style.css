@@ -86,12 +86,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+
+/* Sidebox container stylization */
+
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,12 +104,13 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-/* Side box title stylization */
 
-.benefit-lead h3, 
-.benefit-brand h3, 
+/* Sidebox  heading stylization*/
+
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -122,7 +128,9 @@ p {
 
 
 
-/* Side box image stylization */
+
+/* Sidebox image stylization */
+
 
 .benefit-lead img,
 .benefit-brand img,
@@ -146,18 +154,20 @@ p {
 
 
 
+
 /* Stylization for the content container */
 
-.content-style {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+
 
 /* .search-engine-optimization {
+
+
+
+/* Content container stylization */
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -166,7 +176,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -185,17 +195,24 @@ p {
 } */
 
 
+
 /* Stylization for content images */
 
-.content-style img {
-    max-height: 200px;
-}
+
 
 /* .search-engine-optimization img {
+
+
+
+/* Content image stylization */
+
+.search-engine-optimization img, 
+.online-reputation-management img,
+.social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
@@ -204,19 +221,20 @@ p {
 } */
 
 
-/* Stylization for content <h2> tags */
-
-.content-style h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* .search-engine-optimization h2 {
+
+
+
+/* Content headings stylization */
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }

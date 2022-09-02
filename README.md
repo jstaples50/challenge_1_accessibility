@@ -14,4 +14,5 @@ N/A
 
 ## Usage
 
-*put url here Jared*
+Link to the finished website: [Horiseon](https://jstaples50.github.io/challenge_1_accessibility/)
+
